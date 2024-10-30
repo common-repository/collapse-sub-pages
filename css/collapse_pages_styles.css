@@ -1,0 +1,19 @@
+/**
+ * Collapse Sub Pages
+ *
+ * CSS styles to make dynamically collapsed child pages on
+ * the Edit Pages page in wordpress admin look good.
+ */
+
+.expand_link a{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	margin:0 0 0 10px;
+	text-indent: -9999px;
+	background: url(../images/button_plus_blue.png) no-repeat top left transparent;
+}
+
+.expand_link a.minus{
+	background: url(../images/button_minus_blue.png) no-repeat top left transparent;
+}
